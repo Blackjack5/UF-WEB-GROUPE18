@@ -1,0 +1,64 @@
+h2 {
+    color: rgba(128, 208, 208, 0.500);
+}
+p {
+    color: rgba(128, 208, 208, 0.500);;
+    margin-top: 0px;
+  }
+   
+  fieldset {
+    border-color: rgba(128, 208, 208, 0.500);
+    display: flex;
+    margin-bottom: 15px;
+    padding: 20px;
+    border-radius: 10%;
+  }
+   
+  legend {
+    color: rgba(128, 208, 208, 0.500);
+    padding: 0px 3px;
+    font-weight: bold;
+    font-variant: small-caps;
+  }
+   
+  label {
+    color: rgba(128, 208, 208, 0.500);
+    width: 110px;
+    display: block;
+    margin: 6px ;
+  }
+   
+  em {
+    font-weight: bold;
+    font-style: normal;
+    color: #f00;
+  }
+   
+  input:focus {
+    background: #eaeaea;
+  }
+   
+  input {
+    width: 300px;
+  }
+
+  textarea {
+    height: 100px;
+    width: 500px;;
+  }
+   
+  select {
+    width: 254px;
+  }
+   
+  input[type=checkbox] {
+    width: 10px;
+  }
+   
+  input[type=submit] {
+    width: 150px;
+    padding: 10px;
+  }
+  body {
+      background-color: #303636;
+  }

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/signup.css">
+    <link rel="stylesheet" href="css/Nullifier.css">
+</head>
+<body>
+        <h2>Formulaire d'inscription</h2>
+        <form action="#">
+          <p><i>Complétez le formulaire. Les champs marqué par </i><em>*</em> sont <em>obligatoires</em></p>
+          <fieldset>
+            <legend>Général</legend>
+              <label for="nom">Nom <em>*</em></label>
+              <input id="nom" placeholder="Nom Complet" autofocus="" required=""><br>
+              <label for="telephone">Portable</label>
+              <input id="telephone" type="tel" placeholder="06xxxxxxxx" pattern="06[0-9]{8}"><br>
+              <label for="email">Email <em>*</em></label>
+              <input id="email" type="email" placeholder="aaaa@aaa.com" required><br>
+              <label for="password">Mot de Passe</label>
+              <input id="password" type="password" placeholder="********" required><br>
+          </fieldset>
+          <fieldset>
+            <legend>Information personnelles</legend>
+              <label for="age">Age<em>*</em></label>
+              <input id="age" type="number" placeholder="xx" pattern="[0-9]{2}" required=""><br>
+              <label for="genre">Sexe</label>
+              <select id="genre">
+                <option value="F" name="genre">Femme</option>
+                <option value="H" name="genre">Homme</option>
+                <option value="" name="genre">Helicoptère d'Attaque</option>
+              </select><br>
+              <label for="comments">Information complémentaires.</label>
+              <textarea id="comments"></textarea>
+          </fieldset>
+          </form>
+</body>
